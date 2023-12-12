@@ -58,7 +58,7 @@ main{
     background-color: var(--Light-pink);
     border-radius: 15px;
     padding: 10px;
-    border: 3px solid var(--Dark-purple);
+    border-bottom: 2px solid var(--Dark-purple);
    
 }
 
@@ -110,7 +110,7 @@ main{
     main{
         width: 100%;
         display: flex;
-        background-color: var(--Light-pink);
+        background-color: var(--Grayish-purple);
     }
 
     .window{
@@ -130,12 +130,11 @@ main{
     }
 
     .faq__component{
-        margin: 2ch auto;
+        margin: 2vh auto;
         
-        width: 100%;
+        width: 90%;
          padding: 0.5vh; 
-         border: 0;
-         border: 2px solid var(--Dark-purple);
+         border-bottom: 2px solid var(--Dark-purple);
 
 
        
