@@ -45,10 +45,11 @@ main{
 .window h2{
     display: inline;
     vertical-align:super;
+    font-size: 68px;
 }
 
 .window span{
-    font-size: 34px;
+    font-size: 100px;
 }
 
 
@@ -125,6 +126,17 @@ main{
         border: 0;
         color:var(--Dark-purple);
     }
+
+    .window h2{
+        display: inline;
+        vertical-align:super;
+        font-size: 2rem;
+    }
+    
+    .window span{
+        font-size: 82px;
+    }
+
     .faqs{
         width: 100%;
     }
@@ -135,8 +147,6 @@ main{
         width: 90%;
          padding: 0.5vh; 
          border-bottom: 2px solid var(--Dark-purple);
-
-
        
     }
 
