@@ -1,0 +1,92 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    --ligth-txt: 400;
+    --medium-txt:600;
+    --bold:700;
+    position: absolute;
+    width: 100%;
+}
+
+header{
+    position: relative;
+    display: flex;
+    height: 30vh;
+    background-color:var(--Dark-purple);
+}
+
+main{
+    position: relative;
+    display: flex;
+    height: 70vh;
+    background-color: var(--Light-pink);
+}
+
+.window{
+    position:absolute;
+    top:10vh;
+    display: block;
+    padding: 1.5rem;
+    margin: auto auto;
+    width: 50%;
+    background-color: var(--Light-pink);
+    border-radius: 15px;
+    border: 5px solid var(--Grayish-purple);
+    color:var(--Dark-purple);
+}
+
+.window h2{
+    display: inline;
+    vertical-align:super;
+}
+
+.window span{
+    font-size: 34px;
+}
+
+
+.faq__component{
+
+    margin: 15px 0; 
+    background-color: var(--Light-pink);
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px solid var(--Dark-purple);
+   
+}
+
+.faq_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.faq_title h3{
+    color: black;
+}
+
+.btn__on{
+
+    font-size: 2.5rem;
+    
+    
+}
+
+.btn__on:hover{
+    color: var(--Grayish-purple);
+    transform: scale(0.8);
+    font-size: 2.5rem;
+    
+    
+}
+
+.btn__off{
+    font-size: 2.5rem;
+    display:none ;
+    
+}
